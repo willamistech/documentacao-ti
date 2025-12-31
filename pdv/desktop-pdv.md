@@ -2,7 +2,7 @@
 
 ## Hardware
 - Gabinete office
-- Placa-mãe Gigabyte
+- Placa-mãe Gigabyte ou Asus
 - Processador Intel i3 (2.8 a 3.2 GHz) + cooler
 - Memória RAM 8 GB DDR4 (preferência 2×4 GB)
 - SSD 240 GB SATA (Kingston ou WD)
