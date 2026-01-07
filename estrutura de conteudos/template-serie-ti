@@ -1,0 +1,105 @@
+# [TÍTULO DO POST]
+*Série: Checklist essencial de TI para pequenas empresas – Parte X*
+
+---
+
+## O problema real
+
+Em muitas pequenas empresas, **[descreva o problema comum do dia a dia]** passa despercebido até virar incidente.
+Normalmente só é lembrado quando algo para, quebra ou causa prejuízo.
+
+Este post faz parte de uma série prática sobre **organização e segurança em TI**, sem teoria desnecessária.
+
+---
+
+## Por que isso importa
+
+Quando **[tema do post]** não é tratado corretamente, os impactos mais comuns são:
+
+- perda de disponibilidade  
+- risco de segurança  
+- retrabalho constante  
+- dependência excessiva de pessoas  
+- custos inesperados  
+
+Não é um problema “técnico demais” — é um problema **operacional e de negócio**.
+
+---
+
+## O erro mais comum
+
+O erro mais frequente que vejo é:
+
+> **[descreva o erro típico]**
+
+Normalmente isso acontece porque:
+- “sempre funcionou assim”
+- falta tempo para organizar
+- ninguém é oficialmente responsável
+- o problema nunca estourou (ainda)
+
+---
+
+## Checklist prático
+
+Use este checklist como **ponto de partida**, não como auditoria perfeita.
+
+### ✅ Verificações básicas
+
+- [ ] Existe documentação mínima sobre isso  
+- [ ] Há um responsável definido  
+- [ ] A configuração atual é conhecida  
+- [ ] Não depende de uma única pessoa  
+- [ ] Há backup ou plano de recuperação (se aplicável)
+
+### ⚙️ Configuração / Operação
+
+- [ ] Está configurado corretamente  
+- [ ] Segue um padrão mínimo  
+- [ ] Está atualizado  
+- [ ] Possui logs ou registros  
+- [ ] Já foi testado em situação real
+
+---
+
+## Como melhorar aos poucos
+
+Você não precisa resolver tudo de uma vez.
+
+**Mínimo aceitável**
+- [descreva o mínimo necessário]
+
+**Melhoria intermediária**
+- [descreva o próximo passo realista]
+
+**Cenário ideal**
+- [descreva o ideal, deixando claro que é evolução]
+
+Progresso sustentável é melhor que perfeição abandonada.
+
+---
+
+## Relação com outras áreas da TI
+
+Este tema se conecta diretamente com:
+- **[Segurança / Redes / Backup / Gestão / etc.]**
+
+Esses pontos serão abordados em outros posts da série, porque em TI **nada funciona isolado**.
+
+---
+
+## Conclusão
+
+Organizar **[tema do post]** não elimina todos os problemas,
+mas **evita os piores**.
+
+TI madura não é a que nunca falha —  
+é a que falha menos, se recupera rápido e aprende.
+
+---
+
+## Nota pessoal
+
+*[Opcional]*  
+Uma situação real que já vi envolvendo esse tema foi **[comentário curto e humano]**.
+Depois disso, passei a tratar esse ponto com mais atenção no dia a dia.
