@@ -1,0 +1,97 @@
+## Checklist essencial de TI para pequenas empresas
+
+E ela se divide em episódios/posts, sempre no mesmo formato e lógica:
+
+Parte 1 – Segurança da Informação
+Parte 2 – Redes
+Parte 3 – Backup & Continuidade
+Parte 4 – Gestão de TI
+Parte 5 – Usuários & Suporte
+Parte 6 – Software
+Parte 7 – Hardware
+Parte 8 – Cloud & Serviços
+Parte 9 – Monitoramento
+Parte 10 – Documentação & Automação
+
+## Template padrão da série do blog
+
+### 1️⃣ Abertura — o problema real (curta)
+Comece sempre conectando com a vida real.
+Algo como:
+“Em muitas pequenas empresas, [problema comum] passa despercebido até virar incidente.”
+Aqui você mostra que entende o contexto, não só a técnica.
+
+### 2️⃣ Por que isso importa (contextualização)
+Explique o impacto, não a teoria.
+O que pode dar errado
+Quem é afetado
+Quanto isso costuma custar (tempo, dinheiro, dor de cabeça)
+Poucos parágrafos. Sem jargão desnecessário.
+
+### 3️⃣ O erro mais comum
+Aqui você ganha o leitor.
+
+Mostre o erro típico que você já viu na prática:
+“deixar assim porque sempre funcionou”
+“abrir exceção temporária”
+“ninguém é responsável por isso”
+Isso cria identificação imediata.
+
+### 4️⃣ Checklist prático (coração do post)
+Essa é a alma da série.
+
+Use itens objetivos, verificáveis, do tipo:
+✔ Existe?
+✔ Está configurado?
+✔ Alguém é responsável?
+
+Exemplo de introdução:
+“Use este checklist como ponto de partida, não como auditoria perfeita.”
+O checklist pode ser curto no início e crescer nos próximos posts.
+
+### 5️⃣ Como melhorar aos poucos (sem perfeccionismo)
+Aqui você evita afastar o leitor.
+Mostre evolução em etapas:
+mínimo aceitável
+melhoria intermediária
+cenário ideal (opcional)
+Isso passa maturidade e empatia com quem não tem orçamento infinito.
+
+### 6️⃣ Relação com outras áreas
+
+Conecte com a série.
+Algo como:
+“Esse ponto se conecta diretamente com [Segurança / Backup / Gestão], que vou abordar em outro post da série.”
+Isso cria rede interna de leitura.
+
+### 7️⃣ Fechamento honesto
+
+Nada de moralismo.
+Algo como:
+
+“TI organizada não evita todos os problemas, mas evita os piores.”
+Ou:
+“Se isso ainda não existe no seu ambiente, não é falha — é oportunidade.”
+
+### 8️⃣ Nota pessoal (opcional, curta)
+
+Aqui entra sua voz humana.
+Uma frase ou duas:
+algo que você já viu quebrar
+algo que aprendeu errando
+algo que mudou sua forma de trabalhar
+Isso quebra o “arrumadinho frio” sem bagunçar o post.
+
+Estrutura visual resumida
+
+- Sempre a mesma ordem:
+- Problema real
+- Por que importa
+- Erro comum
+- Checklist
+- Como melhorar
+- Conexões
+- Fechamento
+- Nota pessoal (opcional)
+
+Leitor aprende o formato → leitura fica mais fácil → confiança aumenta.
