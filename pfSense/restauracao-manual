@@ -1,0 +1,116 @@
+Restauração manual de backup no pfSense via console e pendrive
+Contexto
+
+Após falha no sistema (erros de PHP, pacotes quebrados e boot inconsistente), foi necessária a reinstalação limpa do pfSense e a restauração manual do backup de configuração (config.xml), pois o restore automático pelo menu não aplicava corretamente o arquivo.
+
+Ambiente
+
+pfSense: 2.6.0-RELEASE (amd64)
+
+Acesso: Console físico
+
+Backup disponível apenas em pendrive USB
+
+Restore automático (opção 15) não funcionou
+
+Procedimento realizado
+1. Reinstalação limpa do pfSense
+
+Instalação completa do pfSense 2.6.0
+
+Sistema inicializou corretamente com menu funcional
+
+Interfaces atribuídas (WAN/LAN)
+
+2. Identificação do pendrive
+
+No shell do pfSense:
+
+dmesg | grep da
+
+
+Resultado esperado:
+
+Pendrive reconhecido como /dev/da0
+
+3. Montagem manual do pendrive
+
+O pfSense não monta USB automaticamente.
+
+mkdir -p /mnt/usb
+mount_msdosfs /dev/da0 /mnt/usb
+
+
+Verificação:
+
+ls /mnt/usb
+
+
+Backup identificado (exemplo):
+
+9140208.xml
+
+4. Cópia do backup para o local correto
+
+O pfSense só lê o arquivo com o nome exato config.xml.
+
+cp /mnt/usb/9140208.xml /conf/config.xml
+sync
+
+
+Verificação:
+
+ls -lh /conf/config.xml
+
+5. Aplicação forçada da configuração
+
+O restore via menu não aplicava o backup, então foi usado o reload manual:
+
+/etc/rc.reload_all
+
+
+Durante esse processo é normal aparecer mensagens como:
+
+Network is unreachable
+
+route: writing to routing socket
+
+reinicialização de serviços (IPFW, interfaces, rotas)
+
+Essas mensagens não indicam erro.
+
+6. Reinicialização do sistema
+
+Para consolidar a configuração:
+
+reboot
+
+Resultado
+
+Após o reboot:
+
+Interfaces restauradas corretamente
+
+IP da LAN conforme backup
+
+Regras de firewall aplicadas
+
+WebGUI acessível normalmente
+
+Sistema totalmente recuperado
+
+Observações importantes
+
+Restore automático pode falhar silenciosamente após reinstalação
+
+Pendrives devem ser montados manualmente
+
+O nome do arquivo precisa ser config.xml
+
+rc.reload_all é essencial para forçar a aplicação do backup
+
+Mensagens de erro durante o reload são normais
+
+Conclusão
+
+A restauração manual via console é o método mais confiável para recuperar um pfSense após falhas graves de sistema ou incompatibilidade de versões, especialmente quando a GUI ou o restore automático não funcionam.
